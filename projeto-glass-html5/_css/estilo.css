@@ -9,14 +9,31 @@ body {
 
 }
 
-h2 {text-align:center;
+div#interface{
+    width: 1000px;
+    background-color:white;
+    margin:-45px auto 0px auto;
+    box-shadow:0px 0px 10px rgba(0,0,0,.4);
+    padding:10px 10px 10px 10px;
+    
+}
 
+h2 {
+    text-align:center;
 }
 
 p{ 
 
     text-align: justify;
     text-indent: 50px;
+}
+
+header#cabecalho img#icone{
+
+    position:absolute;
+    right:100px;
+    top:50px;
+    
 }
 
 /* formatação de imagens com legenda */
@@ -65,7 +82,7 @@ nav#menu ul {
     text-transform: uppercase;
     position:absolute;
     top:-20px; 
-    left: 300px; 
+    left: 660px; 
 
 
 }
@@ -77,6 +94,23 @@ nav#menu li {
     background-color: #ddd;
     padding: 10px; 
     margin: 2px;
+    transition:background-color 1s 
+
+}
+
+nav#menu li:hover {
+    background-color: #606060;
+}
+
+nav#menu a {
+    color:black;
+    text-decoration:none;
+
+}
+
+nav#menu a:hover{
+    color:white;
+    text-decoration:underline;
 
 }
 
