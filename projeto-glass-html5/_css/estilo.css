@@ -1,5 +1,9 @@
 @charset "UTF-8";
+@font-face {
+    font-family:"fontelogo";
+    src:url('../_fonts/computer-font.ttf');
 
+}
 body {
   background-color: rgb(228, 238, 236);
   color: rgba(0, 0, 0, 1);
@@ -61,7 +65,7 @@ header#cabecalho {
 }
 
 header#cabecalho h1 {
-  font-family: arial, sans-serif;
+  font-family: "fontelogo", sans-serif;
   font-size: 20px;
   color: darkgray;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
@@ -86,7 +90,7 @@ header#cabecalho h4 {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
     padding: 0px 0px 0px -10px;
     margin: 0px 0px 0px 0px; 
-    
+
   }
 
 /*Formatação do menu*/
