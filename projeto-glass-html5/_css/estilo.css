@@ -139,6 +139,23 @@ section#corpo{
 
 }
 
+table#tabelaspec{
+
+  border:1px solid darkslategrey;
+  border-spacing:0px;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+table#tabelaspec td{
+  
+  border: 1px solid darkslategray;
+  padding: 10px;
+  text-align: justify;
+}
+
 aside#lateral{
   display:block;
   width:400px;
