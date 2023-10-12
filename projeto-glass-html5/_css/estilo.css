@@ -131,8 +131,10 @@ nav#menu a:hover {
 
 section#corpo{
   display:block;
-  width:490px;
+  width:570px;
   float:left;
+  border-right: 1px solid darkgray;
+  padding-right: 15px;
 
 
 }
@@ -146,6 +148,8 @@ aside#lateral{
 
 footer#rodape {
   clear: both;
+  border-top: 1px solid darkgray;
+  text-align: center;
 
 
 }
