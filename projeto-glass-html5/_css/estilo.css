@@ -131,17 +131,18 @@ nav#menu a:hover {
 
 section#corpo{
   display:block;
-  width:570px;
+  width:550px;
   float:left;
   border-right: 1px solid darkgray;
-  padding-right: 15px;
+  padding-right: 10px;
+  margin-right:10px;
 
 
 }
 
 table#tabelaspec{
 
-  border:1px solid darkslategrey;
+  border:1px solid black;
   border-spacing:0px;
   margin-left: auto;
   margin-right: auto;
@@ -151,9 +152,43 @@ table#tabelaspec{
 
 table#tabelaspec td{
   
-  border: 1px solid darkslategray;
+  border: 1px solid black;
   padding: 10px;
   text-align: justify;
+}
+
+table#tabelaspec td.ce { 
+  color:white;
+  background-color: rgb(43, 44, 44);
+  vertical-align: top;
+  font-weight: bolder;
+
+}
+
+table#tabelaspec td.cd {
+
+  color:rgb(2, 2, 2);
+  background-color:#919090;
+  
+
+}
+
+table#tabelaspec caption{
+
+  color: darkgray;
+  font-size: 15pt;
+  font-weight: bolder;
+
+}
+
+table#tabelaspec caption span{
+
+  display: block;
+  float: right;
+  color: black;
+  font-size: 8pt; 
+  margin-top: 10px; 
+
 }
 
 aside#lateral{
