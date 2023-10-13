@@ -67,9 +67,9 @@ header#cabecalho {
 
 header#cabecalho h1 {
   font-family: "fontelogo", sans-serif;
-  font-size: 20px;
-  color: rgb(94, 92, 92);
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  font-size: 25px;
+  color: rgb(39, 38, 38);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
   padding: 25px;
   text-align: justify;
 }
@@ -79,7 +79,7 @@ header#cabecalho h2 {
   color: darkgray;
   font-size: 22pt;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9);
-  padding: 30px 0px 0px 0px ;
+  padding: 10px 0px 0px 0px ;
   margin: 0px 0px 0px 0px; 
 }
 
