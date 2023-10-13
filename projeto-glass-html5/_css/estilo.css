@@ -1,8 +1,7 @@
 @charset "UTF-8";
 @font-face {
-    font-family:"fontelogo";
-    src:url('../_fonts/computer-font.ttf');
-
+  font-family: "fontelogo";
+  src: url("../_fonts/computer-font.ttf");
 }
 body {
   background-color: rgb(228, 238, 236);
@@ -32,8 +31,6 @@ header#cabecalho img#icone {
   right: 300px;
   top: 60px;
 }
-
-corpo#
 
 /* formatação de imagens com legenda */
 
@@ -67,6 +64,13 @@ header#cabecalho {
   background: url("../_imagens/glass-logo-peq.jpg") no-repeat 0px 155px;
 }
 
+figure.teste-lampada {
+  position: relative;
+  left: 350px;
+  top: -120px;
+  margin-bottom: -180px;
+}
+
 header#cabecalho h1 {
   font-family: "fontelogo", sans-serif;
   font-size: 25px;
@@ -81,20 +85,19 @@ header#cabecalho h2 {
   color: darkgray;
   font-size: 22pt;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9);
-  padding: 10px 0px 0px 0px ;
-  margin: 0px 0px 0px 0px; 
+  padding: 10px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
 }
 
 header#cabecalho h4 {
-    font-family: arial, sans-serif;
-    color: darkgray;
-    font-size: 15pt;
-    text-align: center;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
-    padding: 0px 0px 0px -10px;
-    margin: 0px 0px 0px 0px; 
-
-  }
+  font-family: arial, sans-serif;
+  color: darkgray;
+  font-size: 15pt;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  padding: 0px 0px 0px -10px;
+  margin: 0px 0px 0px 0px;
+}
 
 /*Formatação do menu*/
 
@@ -132,81 +135,64 @@ nav#menu a:hover {
   text-decoration: underline;
 }
 
-section#corpo{
-  display:block;
-  width:550px;
-  float:left;
+section#corpo {
+  display: block;
+  width: 550px;
+  float: left;
   border-right: 1px solid darkgray;
   padding-right: 10px;
-  margin-right:10px;
-
-
+  margin-right: 10px;
 }
 
-table#tabelaspec{
-
-  border:1px solid black;
-  border-spacing:0px;
+table#tabelaspec {
+  border: 1px solid black;
+  border-spacing: 0px;
   margin-left: auto;
   margin-right: auto;
-
-
 }
 
-table#tabelaspec td{
-  
+table#tabelaspec td {
   border: 1px solid black;
   padding: 10px;
   text-align: justify;
 }
 
-table#tabelaspec td.ce { 
-  color:white;
+table#tabelaspec td.ce {
+  color: white;
   background-color: rgb(43, 44, 44);
   vertical-align: top;
   font-weight: bolder;
-
 }
 
 table#tabelaspec td.cd {
-
-  color:rgb(2, 2, 2);
-  background-color:#919090;
-  
-
+  color: rgb(2, 2, 2);
+  background-color: #919090;
 }
 
-table#tabelaspec caption{
-
+table#tabelaspec caption {
   color: rgb(58, 58, 58);
   font-size: 13pt;
   font-weight: bolder;
-
 }
 
-table#tabelaspec caption span{
-
+table#tabelaspec caption span {
   display: block;
   float: right;
   color: black;
-  font-size: 8pt; 
-  margin-top: 8px; 
-
+  font-size: 8pt;
+  margin-top: 8px;
 }
 
-aside#lateral{
-  display:block;
-  width:400px;
-  float:right;
-
+aside#lateral {
+  display: block;
+  width: 400px;
+  float: right;
 }
 
 footer#rodape {
   clear: both;
   border-top: 1px solid darkgray;
   text-align: center;
-
-
 }
 nav#menu h1 {
   display: none;
