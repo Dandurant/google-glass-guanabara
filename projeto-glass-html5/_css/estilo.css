@@ -24,6 +24,7 @@ h2 {
 p {
   text-align: justify;
   text-indent: 50px;
+  line-height: 1.5;
 }
 
 header#cabecalho img#icone {
@@ -175,8 +176,8 @@ table#tabelaspec td.cd {
 
 table#tabelaspec caption{
 
-  color: darkgray;
-  font-size: 15pt;
+  color: rgb(58, 58, 58);
+  font-size: 13pt;
   font-weight: bolder;
 
 }
@@ -187,7 +188,7 @@ table#tabelaspec caption span{
   float: right;
   color: black;
   font-size: 8pt; 
-  margin-top: 10px; 
+  margin-top: 8px; 
 
 }
 
