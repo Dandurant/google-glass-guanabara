@@ -23,6 +23,14 @@ h2 {
   text-align: center;
 }
 
+section#corpo-full h2 {
+
+  text-align: left;
+  color: gray;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
 p {
   text-align: justify;
   text-indent: 50px;
