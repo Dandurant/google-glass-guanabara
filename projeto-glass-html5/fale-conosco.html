@@ -41,39 +41,49 @@
 </nav>
 </header>
 
+<form>
+    <fieldset>
+        <fieldset id="usuario"><legend>Identificação do Usuário</legend>
+        <p><label for="cnome"> Nome:<input type="text" name="tnome" id="cnome" size="20" maxlength="30" placeholder="Nome completo"> </label> </p>
+        <p>Senha:<input type="password" name="tsenha" id="csenha" size="20" maxlength="" placeholder="Senha com 8 digitos"> </p>
+        <p>E-mail:<input type="email" name="tmail" id="cmail" size="20" maxlength="50" placeholder="Digite seu email"> </p>
+        </fieldset>
 
-Fale Conosco > Contato
-Formulário de Contato
-por Gustavo Guanabara
-Atualizado em 01/Maio/2013
+        <fieldset id="sexo"><legend>Sexo:</legend>
+    
+        <input type="radio" name="tsexo" id="cmasc"/> <label for="cmasc"> Masculino</label> <br>
+        <input type="radio" name="tsexo" id="cfem"/> <label for="cfem"> Feminino</label> <br>
+        <input type="radio" name="tsexo" id="cnb"/> <label for="cnb"> Não binário</label> <br>
+    
+         </fieldset>
+    <p>Data de Nascimento: 
+    <input type="date" name="tdate" id="cdate"></p>
+    </fieldset>
+    
 
-Identificação do Usuário
-    Nome:
-    Senha:
-    E-mail:
-    Sexo:
-        - Masculino
-        - Feminino
-    Data de Nascimento:
+    <fieldset id="endereço"> <legend>Endereço do Usuário</legend>
+    <p>Logradouro:<input type="text" name="trua" id="crua" size="20" maxlength="30" placeholder="Rua, Avenida, Travessa...">    </p>
+    <p>Número: <input type="number" name="tnumero" id="cnumero" min="0" max="99999"> </p>
+    <p>Estado:</p>
+    <p>Cidade:</p>
+    </fieldset>
 
-Endereço do Usuário
-    Logradouro:
-    Número:
-    Estado:
-    Cidade:
+    <fieldset id="mensagem"><legend>Mensagem do Usuário</legend>
 
-Mensagem do Usuário
     Grau de Urgência:
     Mensagem:
+    </fieldset>
 
-Quero um Google Glass
+    <fieldset id="pedido"><legend>Quero um Google Glass</legend>
+
     Gostaria de adquirir um Google Glass quando disponível
     Cor:
     Quantidade:
     Preço Total: R$
-
+    </fieldset>
 
 [BOTÃO ENVIAR]
+</form>
 
 <footer id="rodape">
     Copyright 2013 - by Gustavo Guanabara
