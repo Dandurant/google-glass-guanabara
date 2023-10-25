@@ -73,14 +73,24 @@
         <option>Rio Grande do Sul</option></optgroup> 
     </select></p>
 
-    <p><label for="ccid">Cidade:<input type="text" id="ccid" maxlength="40" size="20"  placeholder="Sua cidade"> </label></p>
+    <p><label for="ccid">Cidade:<input type="text" id="ccid" maxlength="40" size="20"  placeholder="Sua cidade" list="cidades"> </label></p>
 
+    <datalist id="cidades">
+        <option value="Rio de Janeiro"></option>
+        <option value="Nova Iguaçu"></option>
+        <option value="Niterói"></option>
+        <option value="Belford Roxo"></option>
+
+    </datalist>
     </fieldset>
 
     <fieldset id="mensagem"><legend>Mensagem do Usuário</legend>
 
-    Grau de Urgência:
-    Mensagem:
+    <p><label for="curg">Grau de Urgência:</label>
+    Min<input type="range" name="turg" id="curg" min="0" max="10" step="1">Max</p>
+    <p><label for="cmsg"> Mensagem:</label>
+    <textarea name="tmsg" id="cmsg" cols="45" rows="5" placeholder="Escreva aqui sua mensagem"></textarea>
+    </p>
     </fieldset>
 
     <fieldset id="pedido"><legend>Quero um Google Glass</legend>
